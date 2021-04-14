@@ -63,7 +63,7 @@ void main() {
                     ),
                     Container(
                       child: Text(
-                          "0ss"
+                          "0"
                       ),
                     ),
                     
