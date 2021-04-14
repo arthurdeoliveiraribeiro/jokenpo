@@ -9,7 +9,13 @@ void main() {
       ),
       body: Column(
         children: [
-          Text("Minha Imagem:"),
+          Padding(
+            padding: const EdgeInsets.only(top: 10,bottom: 20),
+            child: Text(
+              "Disputa:",
+              style: TextStyle(fontSize: 26),
+            ),
+          ),
           Row(
              children: [
                 Image.asset(
@@ -37,7 +43,8 @@ void main() {
                     ),
                     Container(
                       child: Text(
-                          "4"
+                          "4",
+                          style: TextStyle(fontSize: 16),
                       ),
                     ),
                     
@@ -45,12 +52,17 @@ void main() {
                 ),
                 Column(
                   children: [
-                    Text(
-                        "Empate"
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Text(
+                          "Empate",
+                          
+                      ),
                     ),
                     Container(
                       child: Text(
-                          "2"
+                          "2",
+                          style: TextStyle(fontSize: 16),
                       ),
                     ),
                     
@@ -58,12 +70,16 @@ void main() {
                 ),
                 Column(
                   children: [
-                    Text(
-                        "Máquina"
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Text(
+                          "Máquina"
+                      ),
                     ),
                     Container(
                       child: Text(
-                          "0ssswew"
+                          "0",
+                          style: TextStyle(fontSize: 16),
                       ),
                     ),
                     
