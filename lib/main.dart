@@ -89,7 +89,7 @@ class _JogoPPT extends State<JogoPPT> {
         _imgUserPrayer ="imagens/tesoura.png";
         return vitoria++;
       
-    });
+    });//aa
     }
     
     
